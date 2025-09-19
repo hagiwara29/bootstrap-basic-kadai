@@ -19,72 +19,43 @@
 
   <body>
     <main>
-       <div id="carouselExampleIndicators" class="carousel slide" date-bs-ride="carousel">
+       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
          <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
        </div>
-      </div>
 
        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/top_1.jpg" class="d-block w-100" alt="サンプル画像1">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Example headline</h1>
-                <p>Cras just odio, dapibus ac facilisis in, egestas eget quam.Donec id elit non mi porte gravida at eget metus.Nullam id dolor id nibh ultricies vehicula ut id elit</p>
-                <p><a class="btn btn-lg btn-primary" button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          </div>
-              </div>
-           </div>   
-        </div>
+       <div class="carousel-item active">     
+        <img src="img/top_1.jpg" class="d-block w-100" alt="サンプル画像1">
+        <div class="container">
+         <div class="carousel-caption">
+          <h1>Example headline.</h1>
+          <p>Cras just odio,dapibus ac facilisis in, egetas eget quam. Donec id elit non mi porta gravida at egetmetus. Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
       </div>
-          
-        <div class="carousel-item">
-            <img src="img/top_2.jpg" class="d-block w-100" alt="サンプル画像２">
-            <div class="container">
-             <div class="carousel-caption">
-              <h1>Another headline</h1>
-              <p>Sample text for image 2...</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-             </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-           <img src="img/top_3.jpg" class="d-block w-100" alt="サンプル画像3">
-           <div class="container">
-           <div class="carousel-caption">
-          <h1>Another headline</h1>
-          <p>Sample text for image 3...</p>
-          <p><a class="btn btn-lg btn-primary" button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          </div>
-        </div>
+    </div>
+  </div>
+       <div class="carousel-item">
+        <img src="img/top_2.jpg" class="d-block w-100" alt="サンプル画像2">
+       </div>
+       <div class="carousel-item">
+        <img src="img/top_3.jpg" class="d-block w-100" alt="サンプル画像3">
+       </div>
       </div>
-
+ <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
     <div class="carousel-item">
       <img src="..." class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="..." class="d-block w-100" alt="...">
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-    </button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-    </button>
-  <main>
- </body>    
+  </div>
+</div>
+</body>
 </html>
